@@ -1,0 +1,104 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>How to Construct a House</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 0;
+            background-color: #f0f0f0;
+            color: #333;
+        }
+        header {
+            background-color: #333;
+            color: #fff;
+            text-align: center;
+            padding: 20px;
+        }
+        main {
+            max-width: 800px;
+            margin: 20px auto;
+            padding: 20px;
+            background-color: #fff;
+            box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+            border-radius: 10px;
+        }
+        h1 {
+            color: #fff;
+        }
+        p {
+            line-height: 1.6;
+        }
+        .step {
+            margin-bottom: 20px;
+            padding: 10px;
+            background-color: #f9f9f9;
+            border-radius: 5px;
+        }
+        .step h2 {
+            color: #333;
+            font-size: 1.2em;
+        }
+        .step p {
+            color: #555;
+        }
+        footer {
+            background-color: #333;
+            color: #fff;
+            text-align: center;
+            padding: 10px 0;
+            position: fixed;
+            bottom: 0;
+            width: 100%;
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <h1>How to Construct a House</h1>
+    </header>
+    <main>
+        <div class="step">
+            <h2>Step 1: Planning</h2>
+            <p>Determine the type of house you want to build, create a budget, and obtain necessary permits.</p>
+        </div>
+        <div class="step">
+            <h2>Step 2: Foundation</h2>
+            <p>Excavate the site, pour the concrete foundation, and allow it to cure properly.</p>
+        </div>
+        <div class="step">
+            <h2>Step 3: Framing</h2>
+            <p>Construct the structural framework of the house using wood or steel beams.</p>
+        </div>
+        <div class="step">
+            <h2>Step 4: Roofing</h2>
+            <p>Install the roof trusses, sheathing, and roofing material to protect the house from weather elements.</p>
+        </div>
+        <div class="step">
+            <h2>Step 5: Exterior Finishes</h2>
+            <p>Apply siding, windows, doors, and other exterior finishes to complete the look of the house.</p>
+        </div>
+        <div class="step">
+            <h2>Step 6: Interior Finishes</h2>
+            <p>Finish the interior of the house with drywall, flooring, paint, and fixtures.</p>
+        </div>
+    </main>
+    <footer>
+        <p>&copy; 2024 HowToConstruct.com</p>
+    </footer>
+
+    <script>
+        // Add some interactivity
+        const steps = document.querySelectorAll('.step');
+
+        steps.forEach((step, index) => {
+            step.addEventListener('click', () => {
+                step.classList.toggle('highlight');
+            });
+        });
+    </script>
+</body>
+</html>
